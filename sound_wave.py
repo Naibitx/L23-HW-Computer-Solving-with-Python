@@ -20,4 +20,4 @@ def plot_sine_wave(frequency=1, amplitude=1, phase=0, duration=1, sampling_rate=
     mpt.show()
 
 if __name__ == "__main__":
-    plot_sine_wave() #plot a sine wave with default parameters
+    plot_sine_wave(frequency=3) #plot a sine wave with default parameters
